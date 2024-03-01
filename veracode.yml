@@ -10,8 +10,8 @@ veracode_static_scan:
     branches_to_run:
       - '*'
     branches_to_exclude:
-  pull_request:
-    trigger: true
+  # pull_request:
+  #   trigger: true
     action:
       - opened
       - synchronize
